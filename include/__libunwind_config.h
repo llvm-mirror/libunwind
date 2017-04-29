@@ -26,7 +26,7 @@
 #  define _LIBUNWIND_CONTEXT_SIZE 21
 #  define _LIBUNWIND_CURSOR_SIZE 33
 #  define _LIBUNWIND_HIGHEST_DWARF_REGISTER 17
-# elif defined(__ppc__)
+# elif defined(__ppc__) || defined(__powerpc__)
 #  define _LIBUNWIND_TARGET_PPC 1
 #  define _LIBUNWIND_CONTEXT_SIZE 117
 #  define _LIBUNWIND_CURSOR_SIZE 128
